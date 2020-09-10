@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ImmediatlyLookupApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_dl.e_lazylookup.ImmediatlyLookupApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ComponentScanApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.annotation.b_scan.ComponentScanApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - AnnotationApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.annotation.a_quickstart.AnnotationApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - LazyLookupApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_dl.e_lazylookup.LazyLookupApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - LazyLookUpApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_dl.e_lazylookup.LazyLookUpApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - WithAnnoApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_dl.d_withanno.WithAnnoApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - OfTypeApplication",
       "request": "launch",
       "mainClass": "com.linkedbear.spring.basic_dl.c_oftype.OfTypeApplication",

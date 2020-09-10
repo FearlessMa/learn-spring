@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+  <context:component-scan base-package="com.linkedbear.spring.annotation.c_scan.bean"/>
+  <!-- 注意标签是package，不是packages，代表一个标签只能声明一个根包 -->
+</beans>
