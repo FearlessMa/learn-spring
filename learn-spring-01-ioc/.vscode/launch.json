@@ -1,0 +1,49 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - OfTypeApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_dl.c_oftype.OfTypeApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - QuickstartByNameApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_di.a_quickstart_set.QuickstartByNameApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - QuickstartByNameApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_dl.b_bytype.QuickstartByNameApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - QuickstartByNameApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_dl.a_quickstart_byname.QuickstartByNameApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SampleServletApplication<servletapp>",
+      "request": "launch",
+      "mainClass": "servletapp.servlet.SampleServletApplication",
+      "projectName": "servletapp"
+    }
+  ]
+}
