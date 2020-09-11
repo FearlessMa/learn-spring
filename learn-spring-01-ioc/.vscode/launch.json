@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - AutowiredApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_di.d_complexfield.AutowiredApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ScanApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_di.c_value_spel.ScanApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ConstructorApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_di.b_constructor.ConstructorApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ConfigurableAnnoApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_di.anno_set.ConfigurableAnnoApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ImmediatlyLookupApplication",
       "request": "launch",
       "mainClass": "com.linkedbear.spring.basic_dl.e_lazylookup.ImmediatlyLookupApplication",
