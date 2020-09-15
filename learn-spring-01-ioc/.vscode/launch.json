@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - BeanApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.bean.a_type.BeanApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_di.g_complexfield.CApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ComplexfieldApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.basic_di.g_complexfield.ComplexfieldApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - AutowiredApplication",
       "request": "launch",
       "mainClass": "com.linkedbear.spring.basic_di.d_complexfield.AutowiredApplication",
