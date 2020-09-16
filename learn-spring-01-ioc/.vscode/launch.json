@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - InstanceApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.bean.c_instantiate.InstanceApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ScopeApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.bean.b_scope.ScopeApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - BeanApplication",
       "request": "launch",
       "mainClass": "com.linkedbear.spring.bean.a_type.BeanApplication",
