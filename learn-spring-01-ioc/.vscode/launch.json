@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Application",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.event.a_quickstart.Application",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Application",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.lifecycle.d_prototype.Application",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - InitApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.lifecycle.c_initializingbean.InitApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Application",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.lifecycle.b_jsr250.Application",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - InitMethodApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.lifecycle.a_initmethod.InitMethodApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - InstanceXMLApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.bean.c_instantiate.InstanceXMLApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - InstanceApplication",
       "request": "launch",
       "mainClass": "com.linkedbear.spring.bean.c_instantiate.InstanceApplication",

@@ -1,5 +1,7 @@
 package com.linkedbear.spring.bean.c_instantiate.config;
 
+import com.linkedbear.spring.bean.c_instantiate.bean.Car;
+import com.linkedbear.spring.bean.c_instantiate.bean.StaticFactory;
 import com.linkedbear.spring.bean.c_instantiate.bean.ToFactoryBallBean;
 
 import org.springframework.context.annotation.Bean;
@@ -11,5 +13,10 @@ public class AnnoConfig {
   public ToFactoryBallBean toFactoryBallBean() {
 
     return new ToFactoryBallBean();
+  }
+
+  @Bean
+  public Car car2() {
+      return StaticFactory.getCar();
   }
 }
