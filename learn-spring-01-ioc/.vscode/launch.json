@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - TavernApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.configuration.a_module.TavernApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Application",
       "request": "launch",
       "mainClass": "com.linkedbear.spring.event.a_quickstart.Application",
