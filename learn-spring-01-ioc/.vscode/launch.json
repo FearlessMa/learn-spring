@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - TypeFilterApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.annotation.f_typefilter.TypeFilterApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BasePackageClassApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.annotation.e_basepackageclass.BasePackageClassApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TavernApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.configuration.c_conditional.TavernApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TavernApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.configuration.b_profile.TavernApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - TavernApplication",
       "request": "launch",
       "mainClass": "com.linkedbear.spring.configuration.a_module.TavernApplication",

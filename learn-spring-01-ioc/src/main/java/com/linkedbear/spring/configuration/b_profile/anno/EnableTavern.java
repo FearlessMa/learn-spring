@@ -1,4 +1,4 @@
-package com.linkedbear.spring.configuration.a_module.anno;
+package com.linkedbear.spring.configuration.b_profile.anno;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -6,10 +6,10 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import com.linkedbear.spring.configuration.a_module.bean.Boss;
-import com.linkedbear.spring.configuration.a_module.bean.Waiter;
-import com.linkedbear.spring.configuration.a_module.config.BarConfiguration;
-import com.linkedbear.spring.configuration.a_module.config.BartenderConfiguration;
+import com.linkedbear.spring.configuration.b_profile.bean.Boss;
+import com.linkedbear.spring.configuration.b_profile.bean.Waiter;
+import com.linkedbear.spring.configuration.b_profile.config.BarConfiguration;
+import com.linkedbear.spring.configuration.b_profile.config.BartenderConfiguration;
 
 import org.springframework.context.annotation.Import;
 
