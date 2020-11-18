@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - DefinitionApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.definition.a_quickstart.DefinitionApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - EnvironmentApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.environment.a_getEnvironment.EnvironmentApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - YmlApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.annotation.i_propertyyml.YmlApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - XMLApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.annotation.h_propertyxml.XMLApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ProperitesApplication",
+      "request": "launch",
+      "mainClass": "com.linkedbear.spring.annotation.g_propertysource.ProperitesApplication",
+      "projectName": "spring-01-ioc"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - TypeFilterApplication",
       "request": "launch",
       "mainClass": "com.linkedbear.spring.annotation.f_typefilter.TypeFilterApplication",

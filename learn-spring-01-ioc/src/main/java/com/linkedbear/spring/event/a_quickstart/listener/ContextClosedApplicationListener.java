@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class ContextClosedApplicationListener {
   @EventListener
   public void onContextClosedEvent(ContextClosedEvent event) {
+    System.out.println(event);
     System.out.println("ContextClosedApplicationListener监听到ContextClosedEvent事件！");
   }
 
